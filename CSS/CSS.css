@@ -1,0 +1,181 @@
+bodys{
+   position:relative;
+  padding:1px;
+}
+#page-div{
+ 
+  display:grid;
+  backgroundd:red;
+  grid-gap:50px 0px;
+  background:#EADEDB;
+  width:100%;
+  height:100%;
+  
+  position:absolute;
+ 
+
+}
+#navbar{
+  
+  padding:10px;
+  display:flex;   
+  background:#9B2335;
+  paddingd: 0px 1.9em;
+  justify-content:space-between;
+  border:1px solid white;
+  position:fixed;
+    height:3em;
+  width:100%;
+  
+  
+}
+#navbar header{
+    
+  display:grid;
+  align-items:center;
+ 
+  color:white;
+  margin-left:2em;
+ 
+}
+#navbar ul  {
+  margin:0px 5em 0px 0px;
+  width:30%;
+  
+  
+  height:100%;
+  
+  display:flex;
+  align-itemsd:center;
+
+   
+  list-style:none;
+
+}
+#navbar ul  a {
+  display:grid;
+ align-items:center;
+ text-align:center;
+  
+  height:100%;
+  width:100%;
+  text-decoration:none;
+  color:white;
+  backgrounds:#BD3D3A;
+  
+  box-shadow: 0px 0px 1px 0px  lightgrey ;
+}
+
+#navbar ul :hover{
+ 
+  background: #672E3B;
+}
+
+
+#welcome-section{
+  background:#92B558;
+  widthd:100%;
+  height:900px;
+   display:grid;
+  align-itemsd:center;
+  justify-content:center;
+  margind:0px;
+  paddingd:0px;
+}
+#welcome-section p {
+  margin-top:0px; 
+  text-align:center;
+}
+#welcome-section h2{
+  align-self:end;
+}
+#works{
+  text-align: center;
+}
+#projects{
+  display:flex;  
+ flex-wrap: wrap; 
+ 
+  justify-content:space-around;
+
+}
+.project-tile  {
+ margin-top:5em;
+  width:25em;
+  max-height: 25em;
+  
+
+  
+  
+  text-align:center;
+  border: 1px solid green;
+}
+.project-tile img{
+  max-width:100%;
+  height:80%;
+  border-bottom:1px solid green;
+}
+.project-tile  a h3{
+   padding-bottom:5em;;
+}
+.project-tile  a{
+  text-decoration:none;
+  text-align:center;
+  color:#333;
+}
+
+#profile-link a{
+  text-decoration:none;
+  text-align:center;
+  display:grid;
+  align-items:center;
+  justify-contentd:center;
+  background:#92B558;
+  color:black;
+  width:150PX;
+  height:45px;
+  border: 2px solid #009999;
+  margin: auto 45%;
+}
+
+
+
+#footer{
+  margin-top:60px;
+  display:grid;
+  align-items:center;
+  text-align:center;
+  
+  grid-template-columns: 1fr;
+  width:100%;
+  height:40px;
+  
+  background:#5A7247;
+  color:white;
+}
+
+
+@media screen and (max-width:1000px){
+  #projectsa{
+    display:grid wrap;
+    grid-template-templated:1fr 1fr;
+    background:red;
+  }
+  #project-tilea{
+    background:yellow;
+  }
+  #navbar ul{
+    
+    width:70%;
+  }
+  #navbar  ul li{
+    margin :0px 7px 0px 2px;
+    display:flex;
+    justify-content:space-around;
+    
+    width:100%;
+    
+    
+  }
+  
+}
