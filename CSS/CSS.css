@@ -5,9 +5,9 @@ bodys{
 #page-div{
  
   display:grid;
-  backgroundd:red;
+ 
   grid-gap:50px 0px;
-  background:#EADEDB;
+  backgrounds:#EADEDB;
   width:100%;
   height:100%;
   
@@ -20,7 +20,7 @@ bodys{
   padding:10px;
   display:flex;   
   background:#9B2335;
-  paddingd: 0px 1.9em;
+  
   justify-content:space-between;
   border:1px solid white;
   position:fixed;
@@ -46,7 +46,7 @@ bodys{
   height:100%;
   
   display:flex;
-  align-itemsd:center;
+  
 
    
   list-style:none;
@@ -61,7 +61,7 @@ bodys{
   width:100%;
   text-decoration:none;
   color:white;
-  backgrounds:#BD3D3A;
+  
   
   box-shadow: 0px 0px 1px 0px  lightgrey ;
 }
@@ -127,7 +127,7 @@ bodys{
   text-align:center;
   display:grid;
   align-items:center;
-  justify-contentd:center;
+  
   background:#92B558;
   color:black;
   width:150PX;
